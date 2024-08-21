@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Nav from './nav'
+import Nav from './Nav'
 import './App.css'
 import icon from '/download.png'
 import Intro from './Intro';
