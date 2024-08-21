@@ -1,0 +1,28 @@
+.bd{
+  background-image: url('/had.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sam::before{
+  content: "";
+  background-color: #000;
+  position: absolute;
+  bottom: -18px;
+  left: -50%;
+  width: 200%;
+  height: 0.1rem;
+}
+
+@media (max-width: 768px) {
+  .sam::before{
+    content: "";
+    background-color: #000;
+    position: absolute;
+    bottom: -18px;
+    left: -50%;
+    width: 150%;
+    height: 0.1rem;
+  }
+}
