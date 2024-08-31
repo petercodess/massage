@@ -7,7 +7,6 @@ import Intro from './Intro';
 function App() {
   return (
     <>
-    <h1 className='text-4xl font-bold text-center mt-8 text-slate-950 sam relative'>werey. </h1>
     </>
   );
 }
